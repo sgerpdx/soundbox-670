@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<DocumentFragment>
+  <main
+    class="mainArea"
+  >
+    <section
+      class="topRow"
+    >
+      <nav
+        class="navUpperLeft"
+      >
+        Left
+      </nav>
+      <div
+        class="titleArea"
+      >
+        App Name
+      </div>
+      <nav
+        class="navUpperRight"
+      >
+        Right
+      </nav>
+    </section>
+    <section
+      class="middleRow"
+    >
+      <div
+        class="leftColumn"
+      >
+        Left
+      </div>
+      <div
+        class="middleColumn"
+      >
+         
+        <figure
+          class="contentWrapper"
+        >
+          <img
+            height="100"
+            src="/path/image"
+          />
+        </figure>
+        <p>
+          Basic App Functioning
+        </p>
+      </div>
+      <div
+        class="rightColumn"
+      >
+        Right
+      </div>
+    </section>
+    <section
+      class="bottomRow"
+    >
+      <nav
+        class="navLowerLeft"
+      >
+        Left
+      </nav>
+      <div
+        class="footnoteArea"
+      >
+        Lower Middle
+      </div>
+      <nav
+        class="navLowerRight"
+      >
+        Right
+      </nav>
+    </section>
+  </main>
+</DocumentFragment>
+`;
