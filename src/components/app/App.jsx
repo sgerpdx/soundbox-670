@@ -1,6 +1,12 @@
 import React from 'react';
 import styles from './app.css';
+import Keyboard from '../keyboard/Keyboard';
 import BlueSaturn from '../../assets/blue-saturn_500.jpg';
+import AcUnitIcon from '@material-ui/icons/AcUnit';
+import Brightness4Icon from '@material-ui/icons/Brightness4';
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 function App() {
   return (
@@ -23,9 +29,15 @@ function App() {
         <div className={styles.rightColumn}>Right</div>
       </section>
       <section className={styles.bottomRow}>
-        <nav className={styles.navLowerLeft}>Left</nav>
-        <div className={styles.footnoteArea}>Lower Middle</div>
-        <nav className={styles.navLowerRight}>Right</nav>
+        <nav className={styles.navLowerLeft}>
+          <ArrowBackIosIcon />
+        </nav>
+        <div className={styles.footnoteArea}>
+          <Keyboard />
+        </div>
+        <nav className={styles.navLowerRight}>
+          <ArrowForwardIosIcon />
+        </nav>
       </section>
     </main>
   );

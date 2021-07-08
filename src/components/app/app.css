@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,7 +23,9 @@ body {
   background-color: antiquewhite;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Tourney', cursive; */
+  font-family: 'Orbitron', sans-serif;
+  /* font-family: 'Roboto Mono', monospace; */
 }
 
 .topRow,

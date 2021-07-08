@@ -1,0 +1,19 @@
+.keyboardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 40px;
+  border-radius: 2px;
+  border: solid 1px coral;
+  background: cornsilk;
+  color: coral;
+}
