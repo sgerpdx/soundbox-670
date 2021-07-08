@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './app.css';
-import ReactLogo from '../../assets/1280px-React-icon.svg.png';
+import BlueSaturn from '../../assets/blue-saturn_500.jpg';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <div className={styles.middleColumn}>
           {' '}
           <figure className={styles.contentWrapper}>
-            <img src={ReactLogo} height="100" />
+            <img src={BlueSaturn} height="100" />
           </figure>
           <p>Basic App Functioning</p>
         </div>
