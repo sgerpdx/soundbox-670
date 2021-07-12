@@ -12,9 +12,13 @@ function App() {
   return (
     <main className={styles.mainArea}>
       <section className={styles.topRow}>
-        <nav className={styles.navUpperLeft}>Left</nav>
-        <div className={styles.titleArea}>App Name</div>
-        <nav className={styles.navUpperRight}>Right</nav>
+        <nav className={styles.navUpperLeft}>
+          <PowerSettingsNewIcon />
+        </nav>
+        <div className={styles.titleArea}>Soundbox 670</div>
+        <nav className={styles.navUpperRight}>
+          <div className={styles.powerLED}></div>
+        </nav>
       </section>
       <section className={styles.middleRow}>
         <div className={styles.leftColumn}>Left</div>
@@ -23,7 +27,13 @@ function App() {
           <figure className={styles.contentWrapper}>
             <img src={BlueSaturn} height="100" />
           </figure>
-          <p>Basic App Functioning</p>
+          <nav className={styles.soundControls}>
+            {' '}
+            <p>select mode:</p>
+            <button>synth</button>
+            <button>string</button>
+            <button>oboe</button>
+          </nav>
         </div>
 
         <div className={styles.rightColumn}>Right</div>

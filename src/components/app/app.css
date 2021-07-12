@@ -42,8 +42,10 @@ body {
 .middleColumn {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 40vw;
 }
 
 .contentWrapper {
@@ -63,4 +65,19 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.titleArea {
+  font-size: 3em;
+  color: purple;
+  text-align: center;
+}
+
+.powerLED {
+  background-color: darkgrey;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  border: double 1px purple;
+  padding: 2px;
 }
