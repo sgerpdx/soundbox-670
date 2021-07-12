@@ -3,13 +3,20 @@ import * as Tone from 'tone';
 import styles from './keyboard.css';
 
 const synth = new Tone.Synth().toDestination();
+const aSynth = new Tone.AMSynth().toDestination();
+const fSynth = new Tone.FMSynth().toDestination();
+const nSynth = new Tone.NoiseSynth().toDestination();
 let now = Tone.now();
 
-const handleToneClick = () => {
-  synth.triggerAttack('C4', now);
-  synth.triggerRelease(now + 1);
+const synthArray = [synth, aSynth, fSynth, nSynth];
 
-  now = Tone.now();
+const handleToneClick = () => {
+  const currentSynth = synthArray[Math.round(Math.random() * 4)];
+  currentSynth.triggerAttackRelease('C4', now + 1);
+  // currentSynth.triggerRelease(now + 1);
+
+  // now = Tone.now();
+  // Tone.now gets the current time of AudioContext
 };
 
 export default function Keyboard() {

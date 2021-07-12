@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.tone {
+  background-color: purple;
+  color: cornsilk;
+}
+
 .key {
   display: flex;
   flex-direction: row;
