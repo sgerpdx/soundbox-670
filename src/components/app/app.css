@@ -74,10 +74,10 @@ body {
 }
 
 .powerLED {
-  background-color: darkgrey;
+  background-color: black;
   height: 32px;
   width: 32px;
   border-radius: 16px;
-  border: double 1px purple;
+  border: double 1px whitesmoke;
   padding: 2px;
 }

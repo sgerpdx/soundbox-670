@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './app.css';
 import Keyboard from '../keyboard/Keyboard';
 import BlueSaturn from '../../assets/blue-saturn_500.jpg';
-import AcUnitIcon from '@material-ui/icons/AcUnit';
-import Brightness4Icon from '@material-ui/icons/Brightness4';
+// import AcUnitIcon from '@material-ui/icons/AcUnit';
+// import Brightness4Icon from '@material-ui/icons/Brightness4';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
@@ -30,9 +30,9 @@ function App() {
           <nav className={styles.soundControls}>
             {' '}
             <p>select mode:</p>
-            <button>synth</button>
-            <button>string</button>
-            <button>oboe</button>
+            <button>mode 1</button>
+            <button>mode 2</button>
+            <button>mode 3</button>
           </nav>
         </div>
 
