@@ -58,13 +58,20 @@ body {
 }
 
 .navLowerLeft,
-.footnoteArea,
 .navLowerRight,
 .navUpperLeft,
 .titleArea,
 .navUpperRight {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footnoteArea {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

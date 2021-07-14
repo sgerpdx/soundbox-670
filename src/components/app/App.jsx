@@ -23,13 +23,10 @@ function App() {
       <section className={styles.middleRow}>
         <div className={styles.leftColumn}>Left</div>
         <div className={styles.middleColumn}>
-          {' '}
           <figure className={styles.contentWrapper}>
             <img src={BlueSaturn} height="100" />
           </figure>
           <nav className={styles.soundControls}>
-            {' '}
-            <p>select mode:</p>
             <button>mode 1</button>
             <button>mode 2</button>
             <button>mode 3</button>
