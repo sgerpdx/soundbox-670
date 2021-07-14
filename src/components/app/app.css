@@ -21,6 +21,8 @@ body {
   display: grid;
   grid-template-rows: 2fr 5fr 1fr;
   background-color: antiquewhite;
+  border: solid 2pt coral;
+  border-radius: 8px;
   justify-content: center;
   align-items: center;
   /* font-family: 'Tourney', cursive; */
@@ -31,12 +33,13 @@ body {
 .topRow,
 .middleRow,
 .bottomRow {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
   justify-content: center;
   align-items: center;
+  border-top: solid 1px coral;
 }
 
 .middleColumn {
@@ -69,7 +72,7 @@ body {
 
 .titleArea {
   font-size: 3em;
-  color: purple;
+  color: coral;
   text-align: center;
 }
 
